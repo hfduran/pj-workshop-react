@@ -1,15 +1,19 @@
 /*
-No caso de vocês, esse arquivo servirá apenas para chamar a página que
-vocês criarão na pasta pages.
+  No caso de vocês, esse arquivo servirá apenas para importar a página que
+  vocês criarão na pasta pages e os estilos globais.
 */
 
 import "./App.css";
 
 import Page from "./pages/mainPage";
+import { GlobalStyles } from "./styles";
 
 function App() {
   return (
-    <Page />
+    <>
+      <GlobalStyles />
+      <Page />
+    </>
   );
 }
 
