@@ -14,6 +14,7 @@ const Page = () => {
   return (
     <>
       <S.Body>
+        <S.MainTitle>Workshop de React!</S.MainTitle>
         <Card big={true} text="Texto da propriedade" />
         <Card big={false} text="oi Neto" cardColor="#9affe6">
           {/* children do componente */}
