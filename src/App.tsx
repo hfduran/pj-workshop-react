@@ -1,8 +1,9 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+/*
+No caso de vocês, esse arquivo servirá apenas para chamar a página que
+vocês criarão na pasta pages.
+*/
 
-import Card from "./components/Card";
+import "./App.css";
 
 import Page from "./pages/mainPage";
 

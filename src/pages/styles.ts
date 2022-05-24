@@ -10,3 +10,8 @@ export const MinhaImagem = styled.img`
     height: 50px;
     width: 50px;
 `;
+
+export const CardText = styled.p`
+    font-family: monospace;
+    color: blueviolet;
+`;
